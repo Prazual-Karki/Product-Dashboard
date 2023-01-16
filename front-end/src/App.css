@@ -1,0 +1,51 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.navbar{
+  background-color: rgb(189, 211, 243);
+  padding: 20px;
+}
+.signUp, .product{
+ margin-left: 35%;
+
+
+}
+.inputBox{
+  padding: 5px;
+  display: block;
+  border: 1px solid #adade8;
+  margin: 20px;
+  padding: 5px;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+}
+.signUp button,.product button{
+    margin-left: 13%;
+    padding: 8px;
+    border-radius: 10px;
+    border-width: 1px;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+}
+.rightnav{
+  background-color: rgb(189, 211, 243);
+  padding: 20px;
+  text-align: right;
+
+}
+#logout{
+  text-align: right;
+}
+.invalidInput{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
